@@ -1,0 +1,11 @@
+{
+  "name": "Remix AlertAloud_V2",
+  "description": "One alert. Everything you need. Read aloud. A global, all-emergency companion web app with real-time official alerts, multilingual voice guidance, and household SOS coordination.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

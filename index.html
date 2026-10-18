@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>AlertAloud — One alert. Everything you need. Read aloud.</title>
+    <meta name="description" content="One alert. Everything you need. Read aloud. A global, all-emergency companion web app with real-time official alerts, multilingual voice guidance, and household SOS coordination." />
+    <meta property="og:title" content="AlertAloud — One alert. Everything you need. Read aloud." />
+    <meta property="og:description" content="A global, all-emergency companion web app with real-time official alerts, multilingual voice guidance, and household SOS coordination." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#dc2626" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <script>
+      // Suppress Vite HMR WebSocket connection errors per AI Studio environment constraints
+      window.addEventListener('unhandledrejection', function(event) {
+        var msg = (event.reason && (event.reason.message || String(event.reason))) || '';
+        if (msg.indexOf('WebSocket') !== -1 || msg.indexOf('vite:ws') !== -1) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-red-500 selection:text-white min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

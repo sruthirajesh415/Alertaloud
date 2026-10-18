@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="alertAloudGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB5A78" />
+      <stop offset="50%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#D91B42" />
+    </linearGradient>
+    <linearGradient id="alertAloudExclamation" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB5A78" />
+      <stop offset="100%" stop-color="#D91B42" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="96" height="96" rx="24" fill="url(#alertAloudGradient)" />
+  <path d="M50 18 C33 18 20 31 20 47 C20 56.5 24.8 64.9 32.3 70 C31.2 74.8 28.5 78.8 24.5 81.8 C24 82.2 24.3 83 25 83 C31.8 83 37.8 79.2 41.5 74.5 C44.2 75.5 47 76 50 76 C66.5 76 80 63 80 47 C80 31 66.5 18 50 18 Z" fill="#FFFFFF" />
+  <path d="M50 30 C52.5 30 54.3 32.2 54 34.8 L52.2 52.8 C52 54.5 50.8 55.8 49.2 55.8 C47.6 55.8 46.4 54.5 46.2 52.8 L44.4 34.8 C44.1 32.2 45.9 30 48.4 30 L50 30 Z" fill="url(#alertAloudExclamation)" />
+  <circle cx="49.2" cy="64" r="4.2" fill="url(#alertAloudExclamation)" />
+</svg>
